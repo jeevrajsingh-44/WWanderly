@@ -1,0 +1,142 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroLeft{
+    margin-left: 150px;
+}
+
+.heroLeft h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.heroLeft p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.heroLeft h1 span {
+    color: #00D2D3;
+}
+
+
+.heroRight img {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 90px;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.heroBtn {
+    width: 120px;
+    padding: 12px 20px;
+    background: #00D2D3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.section2Title{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.section2Title span {
+    color: #00D2D3;
+}
+
+.whyWanderly{
+    display: flex;
+    justify-content: space-around;
+}
+.whyWanderly h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.feature {
+    border: 2px solid #222;
+    margin-bottom: 20px;
+    width: 260px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.08);
+}
+
+.discover {
+    background-image: url('discover.png');
+}
+
+.plan {
+    background-image: url('plan.png');
+}
+
+.enjoy {
+    background-image: url('enjoy.png');
+}
+
+.destinationCards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.destinationCard:hover {
+    transform: scale(1.08);
+}
+.destinationCard {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.destinationCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destinationCard h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.destinationCards{
+    margin-bottom: 20px;
+}
+
+.popularDestinations h2{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.hero,
+.whyWanderly,
+.popularDestinations {
+    background-color: #0D0D0D;
+    color: white;
+}

@@ -77,15 +77,15 @@
 }
 
 .discover {
-    background-image: url('discover.png');
+    background-image: url('../public/discover.png');
 }
 
 .plan {
-    background-image: url('plan.png');
+    background-image: url('../public/plan.png');
 }
 
 .enjoy {
-    background-image: url('enjoy.png');
+    background-image: url('../public/enjoy.png');
 }
 
 .destinationCards {

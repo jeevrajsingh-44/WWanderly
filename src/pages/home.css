@@ -57,18 +57,27 @@
 }
 .whyWanderly h3{
     font-size: 25px;
-    display: flex;
-    justify-content: center;
+}
+
+.feature h3 {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 25px;
 }
 
 .feature {
+    position: relative;
     border: 2px solid #222;
     margin-bottom: 20px;
     width: 260px;
     height: 300px;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px;
+    overflow: hidden;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -76,17 +85,13 @@
     transform: scale(1.08);
 }
 
-.discover {
-    background-image: url('../public/discover.png');
+.feature img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
-.plan {
-    background-image: url('../public/plan.png');
-}
-
-.enjoy {
-    background-image: url('../public/enjoy.png');
-}
 
 .destinationCards {
     display: flex;

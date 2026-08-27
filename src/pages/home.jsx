@@ -23,14 +23,17 @@ const Home = () => {
     <div className="whyWanderly">
 
       <div className="feature discover">
+        <img src="/discover.png" alt="Discover" />
         <h3>Discover</h3>
       </div>
 
       <div className="feature plan">
+        <img src="/plan.png" alt="Plan" />
         <h3>Plan</h3>
       </div>
 
       <div className="feature enjoy">
+        <img src="/enjoy.png" alt="Enjoy" />
         <h3>Enjoy</h3>
       </div>
 

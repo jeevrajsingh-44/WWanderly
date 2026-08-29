@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (<>
@@ -8,7 +9,7 @@ const Home = () => {
       <div className='heroLeft'>
         <h1>Explore the world with <span>Wanderly</span></h1>
         <p>Discover beautiful places and plan your next adventure.</p>
-        <button className='heroBtn'>Explore ⤏</button>
+        <Link to="/explore" className="heroBtn">Explore ⤏</Link>
       </div>
 
       <div className='heroRight'>

@@ -1,6 +1,7 @@
 import React from 'react'
+import './explore.css'
 
-const explore = () => {
+const Explore = () => {
   return (
     <div>
       
@@ -8,4 +9,4 @@ const explore = () => {
   )
 }
 
-export default explore
+export default Explore

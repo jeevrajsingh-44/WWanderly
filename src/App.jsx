@@ -3,16 +3,23 @@ import Nav from './components/nav'
 import Footer from './components/footer'
 import Home from './pages/home'
 import './App.css'
+import Explore from './pages/explore'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className="app">
-      <Nav />
-      <main>
-        <Home />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Nav />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/explore" element={<Explore />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   )
 }
 

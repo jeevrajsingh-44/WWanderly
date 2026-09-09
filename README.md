@@ -8,17 +8,20 @@ Wanderly is a modern travel website designed to help users discover beautiful de
 
 ## Features
 
-- Hero section with travel inspiration
-- Discover, Plan, and Enjoy sections
-- Popular destinations
-- Interactive hover effects
+* Hero section with travel inspiration
+* Discover, Plan, and Enjoy sections
+* Explore page with multiple destinations
+* Destination cards with pricing
+* Interactive hover effects
+* Responsive travel-focused UI
 
 ## Tech Stack
 
-- React
-- Vite
-- CSS
+* React
+* Vite
+* CSS
+* React Router
 
 ## Status
 
-Currently under development.
+Currently under development. Explore page completed and more destination features are being added.

@@ -14,11 +14,12 @@
 }
 
 .left{
+    font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: #24104F;
+    color: #f9f9fa;
 }
 .image img {
     width: 80px;

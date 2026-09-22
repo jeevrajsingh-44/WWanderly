@@ -1,5 +1,6 @@
 import React from 'react'
 import './explore.css'
+import { Link } from 'react-router-dom'
 
 
 const destinations = [
@@ -49,7 +50,7 @@ const destinations = [
     name: "New York",
     image: "/newyork.png",
     price: "₹54,999",
-    link: "/destination/new-york"
+    link: "/destination/newyork"
   },
   {
     name: "Switzerland",
@@ -147,9 +148,9 @@ const Explore = () => {
                 <h4>{destination.price}</h4>
               </div>
 
-              <button className="exploreCardBook">
+              <Link to={destination.link} className="exploreCardBook">
                 Book Now →
-              </button>
+              </Link>
             </div>
 
           </div>

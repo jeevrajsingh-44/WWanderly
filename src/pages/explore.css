@@ -75,6 +75,7 @@
     font-weight: 600;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .exploreCardBook:hover {

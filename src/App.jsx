@@ -4,6 +4,7 @@ import Footer from './components/footer'
 import Home from './pages/home'
 import './App.css'
 import Explore from './pages/explore'
+import Destination from './pages/destination'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/destination/:name" element={<Destination />} />
           </Routes>
         </main>
         <Footer />

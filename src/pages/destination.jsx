@@ -6,8 +6,8 @@ const destinations = [
   {
     name: "Goa",
     link: "/destination/goa",
-    image: "/goa.png",
-    heroImage: "/goabg.png",
+    image: "/goa.webp",
+    heroImage: "/goabg.webp",
     title: "Goa: Beyond the Beaches: Discover the Hidden Side of Goa",
     tags: ["BEACHES", "ADVENTURE", "NIGHTLIFE"],
 
@@ -34,8 +34,8 @@ const destinations = [
   {
     name: "Paris",
     link: "/destination/paris",
-    image: "/paris.png",
-    heroImage: "/parisbg.png",
+    image: "/paris.webp",
+    heroImage: "/parisbg.webp",
     title: "Paris: Where Every Street Tells a Story",
     tags: ["ROMANCE", "CULTURE", "CUISINE"],
 
@@ -62,8 +62,8 @@ const destinations = [
   {
     name: "Bali",
     link: "/destination/bali",
-    image: "/bali.png",
-    heroImage: "/balibg.png",
+    image: "/bali.webp",
+    heroImage: "/balibg.webp",
     title: "Bali: Where Island Life Meets Adventure",
     tags: ["BEACHES", "TEMPLES", "ADVENTURE"],
 
@@ -90,8 +90,8 @@ const destinations = [
   {
     name: "Dubai",
     link: "/destination/dubai",
-    image: "/dubai.png",
-    heroImage: "/dubaibg.png",
+    image: "/dubai.webp",
+    heroImage: "/dubaibg.webp",
     title: "Dubai: A City Built Beyond Imagination",
     tags: ["LUXURY", "ADVENTURE", "NIGHTLIFE"],
 
@@ -118,8 +118,8 @@ const destinations = [
   {
     name: "Manali",
     link: "/destination/manali",
-    image: "/manali.png",
-    heroImage: "/manalibg.png",
+    image: "/manali.webp",
+    heroImage: "/manalibg.webp",
     title: "Manali: Into the Heart of the Himalayas",
     tags: ["MOUNTAINS", "ADVENTURE", "NATURE"],
 
@@ -146,8 +146,8 @@ const destinations = [
   {
     name: "London",
     link: "/destination/london",
-    image: "/london.png",
-    heroImage: "/londonbg.png",
+    image: "/london.webp",
+    heroImage: "/londonbg.webp",
     title: "London: A City Where History Meets Tomorrow",
     tags: ["HISTORY", "CULTURE", "CITY LIFE"],
 
@@ -174,8 +174,8 @@ const destinations = [
   {
     name: "Tokyo",
     link: "/destination/tokyo",
-    image: "/tokyo.png",
-    heroImage: "/tokyobg.png",
+    image: "/tokyo.webp",
+    heroImage: "/tokyobg.webp",
     title: "Tokyo: Where Tradition Moves at the Speed of Tomorrow",
     tags: ["TECHNOLOGY", "CULTURE", "CUISINE"],
 
@@ -202,8 +202,8 @@ const destinations = [
   {
     name: "New York",
     link: "/destination/newyork",
-    image: "/newyork.png",
-    heroImage: "/newyorkbg.png",
+    image: "/newyork.webp",
+    heroImage: "/newyorkbg.webp",
     title: "New York: The City That Never Stops",
     tags: ["CITY LIFE", "CULTURE", "ENTERTAINMENT"],
 
@@ -231,8 +231,8 @@ const destinations = [
   {
     name: "Switzerland",
     link: "/destination/switzerland",
-    image: "/switzerland.png",
-    heroImage: "/switzerlandbg.png",
+    image: "/switzerland.webp",
+    heroImage: "/switzerlandbg.webp",
     title: "Switzerland: Where Every View Feels Unreal",
     tags: ["ALPS", "NATURE", "ADVENTURE"],
 
@@ -259,8 +259,8 @@ const destinations = [
   {
     name: "Maldives",
     link: "/destination/maldives",
-    image: "/maldives.png",
-    heroImage: "/maldivesbg.png",
+    image: "/maldives.webp",
+    heroImage: "/maldivesbg.webp",
     title: "Maldives: Escape Into a World of Blue",
     tags: ["ISLANDS", "BEACHES", "LUXURY"],
 
@@ -287,8 +287,8 @@ const destinations = [
   {
     name: "Singapore",
     link: "/destination/singapore",
-    image: "/singapore.png",
-    heroImage: "/singaporebg.png",
+    image: "/singapore.webp",
+    heroImage: "/singaporebg.webp",
     title: "Singapore: Small Island, Endless Possibilities",
     tags: ["MODERN", "CUISINE", "ADVENTURE"],
 
@@ -315,8 +315,8 @@ const destinations = [
   {
     name: "Thailand",
     link: "/destination/thailand",
-    image: "/thailand.png",
-    heroImage: "/thailandbg.png",
+    image: "/thailand.webp",
+    heroImage: "/thailandbg.webp",
     title: "Thailand: Find Your Own Tropical Adventure",
     tags: ["BEACHES", "CULTURE", "ADVENTURE"],
 
@@ -343,8 +343,8 @@ const destinations = [
   {
     name: "Amsterdam",
     link: "/destination/amsterdam",
-    image: "/amsterdam.png",
-    heroImage: "/amsterdambg.png",
+    image: "/amsterdam.webp",
+    heroImage: "/amsterdambg.webp",
     title: "Amsterdam: Canals, Culture and Endless Charm",
     tags: ["CANALS", "CULTURE", "CITY LIFE"],
 
@@ -371,8 +371,8 @@ const destinations = [
   {
     name: "Venice",
     link: "/destination/venice",
-    image: "/venice.png",
-    heroImage: "/venicebg.png",
+    image: "/venice.webp",
+    heroImage: "/venicebg.webp",
     title: "Venice: A City Floating Through Time",
     tags: ["ROMANCE", "HISTORY", "ART"],
 
@@ -399,8 +399,8 @@ const destinations = [
   {
     name: "Santorini",
     link: "/destination/santorini",
-    image: "/santorini.png",
-    heroImage: "/santorinibg.png",
+    image: "/santorini.webp",
+    heroImage: "/santorinibg.webp",
     title: "Santorini: Chasing Sunsets Above the Aegean",
     tags: ["SUNSETS", "ISLANDS", "ROMANCE"],
 
@@ -427,8 +427,8 @@ const destinations = [
   {
     name: "Sydney",
     link: "/destination/sydney",
-    image: "/sydney.png",
-    heroImage: "/sydneybg.png",
+    image: "/sydney.webp",
+    heroImage: "/sydneybg.webp",
     title: "Sydney: Where the City Meets the Sea",
     tags: ["BEACHES", "CITY LIFE", "ADVENTURE"],
 
@@ -455,8 +455,8 @@ const destinations = [
   {
     name: "Kerala",
     link: "/destination/kerala",
-    image: "/kerala.png",
-    heroImage: "/keralabg.png",
+    image: "/kerala.webp",
+    heroImage: "/keralabg.webp",
     title: "Kerala: God's Own Country, Naturally",
     tags: ["BACKWATERS", "NATURE", "CULTURE"],
 
@@ -483,8 +483,8 @@ const destinations = [
   {
     name: "Jaipur",
     link: "/destination/jaipur",
-    image: "/jaipur.png",
-    heroImage: "/jaipurbg.png",
+    image: "/jaipur.webp",
+    heroImage: "/jaipurbg.webp",
     title: "Jaipur: Walk Through the Colors of Royalty",
     tags: ["HERITAGE", "ROYALTY", "CULTURE"],
 
@@ -511,8 +511,8 @@ const destinations = [
   {
     name: "Agra",
     link: "/destination/agra",
-    image: "/agra.png",
-    heroImage: "/agrabg.png",
+    image: "/agra.webp",
+    heroImage: "/agrabg.webp",
     title: "Agra: Where Love Became a Monument",
     tags: ["HERITAGE", "HISTORY", "ARCHITECTURE"],
 
@@ -539,8 +539,8 @@ const destinations = [
   {
     name: "Rishikesh",
     link: "/destination/rishikesh",
-    image: "/rishikesh.png",
-    heroImage: "/rishikeshbg.png",
+    image: "/rishikesh.webp",
+    heroImage: "/rishikeshbg.webp",
     title: "Rishikesh: Find Adventure Beyond the Rapids",
     tags: ["ADVENTURE", "SPIRITUALITY", "NATURE"],
 
@@ -603,7 +603,7 @@ const Destination = () => {
 
           <div className="section2">
             <div className="section2Left">
-              <img src={`/${destination.name.toLowerCase().replace(" ", "")}1.png`} alt={destination.name} />
+              <img src={`/${destination.name.toLowerCase().replace(" ", "")}1.webp`} alt={destination.name} />
             </div>
 
             <div className="section2Right">
@@ -636,7 +636,7 @@ const Destination = () => {
 
             <div className="section3Right">
               <img
-                src={`/${destination.name.toLowerCase().replace(" ", "")}2.png`}
+                src={`/${destination.name.toLowerCase().replace(" ", "")}2.webp`}
                 alt={destination.name}
               />
             </div>
@@ -646,7 +646,7 @@ const Destination = () => {
 
           <div className="section4">
             <div className="section4Left">
-              <img src="/travelglobe.png" alt="Travel planning" />
+              <img src="/travelglobe.webp" alt="Travel planning" />
             </div>
 
             <div className="section4Right">
@@ -669,7 +669,7 @@ const Destination = () => {
           <hr />
 
           <div className="section5">
-            <img src="/includes.png" alt="What Wanderly Includes" />
+            <img src="/includes.webp" alt="What Wanderly Includes" />
           </div>
 
 

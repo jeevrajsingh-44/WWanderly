@@ -13,7 +13,7 @@ const Home = () => {
       </div>
 
       <div className='heroRight'>
-        <img src="hero.png" alt="travel" />
+        <img src="hero.webp" alt="travel" />
       </div>
     </div>
 
@@ -24,17 +24,17 @@ const Home = () => {
     <div className="whyWanderly">
 
       <div className="feature discover">
-        <img src="/discover.png" alt="Discover" />
+        <img src="/discover.webp" alt="Discover" />
         <h3>Discover</h3>
       </div>
 
       <div className="feature plan">
-        <img src="/plan.png" alt="Plan" />
+        <img src="/plan.webp" alt="Plan" />
         <h3>Plan</h3>
       </div>
 
       <div className="feature enjoy">
-        <img src="/enjoy.png" alt="Enjoy" />
+        <img src="/enjoy.webp" alt="Enjoy" />
         <h3>Enjoy</h3>
       </div>
 
@@ -48,22 +48,22 @@ const Home = () => {
       <div className="destinationCards">
 
         <div className="destinationCard">
-          <img src="/goa.png" alt="Goa" />
+          <img src="/goa.webp" alt="Goa" />
           <h3>Goa</h3>
         </div>
 
         <div className="destinationCard">
-          <img src="/paris.png" alt="Paris" />
+          <img src="/paris.webp" alt="Paris" />
           <h3>Paris</h3>
         </div>
 
         <div className="destinationCard">
-          <img src="/bali.png" alt="Bali" />
+          <img src="/bali.webp" alt="Bali" />
           <h3>Bali</h3>
         </div>
 
         <div className="destinationCard">
-          <img src="/dubai.png" alt="Dubai" />
+          <img src="/dubai.webp" alt="Dubai" />
           <h3>Dubai</h3>
         </div>
 

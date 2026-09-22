@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className='body'>
       <div className="left">
-        <div className="image"><img src="/wanderlyLogo.png" alt="logo" /></div>
+        <div className="image"><img src="/wanderlyLogo.webp" alt="logo" /></div>
         <h1 className='title'>WWanderly</h1>
       </div>
       <div className="right">

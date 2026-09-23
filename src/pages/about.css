@@ -1,0 +1,45 @@
+.aboutpage{
+    display: flex;
+}
+
+.leftabout {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.leftabout h1{
+    font-size: 64px;
+    margin: 0px 0px 40px 90px;
+}
+
+.leftabout p{
+    font-size: 24px;
+    margin: 0px 90px 50px 90px;
+
+}
+
+.aboutpage button{
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.rightabout {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.rightabout img {
+    width: 80%;
+    height: auto;
+}

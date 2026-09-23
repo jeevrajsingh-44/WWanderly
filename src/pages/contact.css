@@ -1,0 +1,73 @@
+.contactpage {
+    display: flex;
+    min-height: 600px;
+    padding: 60px 90px;
+    gap: 60px;
+}
+
+.leftcontact {
+    width: 50%;
+}
+
+.leftcontact h1 {
+    font-size: 64px;
+    margin: 0 0 30px 0;
+}
+
+.leftcontact p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.leftcontact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leftcontact input,
+.leftcontact textarea {
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.leftcontact textarea {
+    height: 120px;
+    resize: none;
+}
+
+.leftcontact button {
+    width: 150px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.rightcontact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightcontact img {
+    width: 75%;
+    height: auto;
+}
+
+.contactinfo {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.contactinfo h2 {
+    font-size: 30px;
+}

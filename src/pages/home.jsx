@@ -13,7 +13,7 @@ const Home = () => {
       </div>
 
       <div className='heroRight'>
-        <img src="hero.webp" alt="travel" />
+        <img src="hero.png" alt="travel" />
       </div>
     </div>
 

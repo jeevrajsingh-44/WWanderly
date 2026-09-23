@@ -4,19 +4,21 @@ import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div className='body'>
-      <div className="left">
-        <div className="image"><img src="/wanderlyLogo.webp" alt="logo" /></div>
-        <h1 className='title'>WWanderly</h1>
+    <nav className="navbar">
+
+      <Link to="/" className="brand">
+        <img src="/contact.png" alt="logo" />
+        <span>WWanderly</span>
+      </Link>
+
+      <div className="navlinks">
+        <Link to="/">Home</Link>
+        <Link to="/explore">Explore</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </div>
-      <div className="right">
-        <Link to="/">
-            <h1>home</h1>
-        </Link>
-        <h1>about</h1>
-        <h1>contact</h1>
-      </div>
-    </div>
+
+    </nav>
   )
 }
 

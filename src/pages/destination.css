@@ -199,13 +199,20 @@ hr{
 
 .packages {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
+    align-items: stretch;
 }
 
 .package {
     flex: 1;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.package a {
+    margin-top: auto;
 }
 
 .package h4 {
@@ -224,7 +231,7 @@ hr{
     margin: 0;
 }
 .package button {
-    margin-top: 20px;
+    margin-top: auto;
     padding: 10px 22px;
     border: none;
     border-radius: 25px;

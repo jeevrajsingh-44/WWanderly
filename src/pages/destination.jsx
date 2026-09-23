@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './destination.css'
-import { useParams } from "react-router-dom";
+import { useParams, Link } from 'react-router-dom'
 
 const destinations = [
   {
@@ -659,7 +659,12 @@ const Destination = () => {
                     <h4>{pkg[0]}</h4>
                     <h5>{pkg[1]}</h5>
                     <p>{pkg[2]}</p>
-                    <button>Book Now</button>
+
+                    <Link
+                      to={`/booking?destination=${destination.name}&package=${pkg[0]}&price=${pkg[1]}`}
+                    >
+                      <button>Book Now</button>
+                    </Link>
                   </div>
                 ))}
               </div>

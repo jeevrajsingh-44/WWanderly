@@ -5,3 +5,7 @@ html {
 html::-webkit-scrollbar {
     display: none;
 }
+
+.app {
+    padding-top: 94px;
+}

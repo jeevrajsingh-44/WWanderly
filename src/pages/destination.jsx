@@ -595,7 +595,9 @@ const Destination = () => {
                 <span>{destination.tags[2]}</span>
               </div>
 
-              <button>Explore Plans</button>
+              <a href="#packages">
+    <button>Explore Plans</button>
+  </a>
             </div>
           </div>
 
@@ -644,7 +646,7 @@ const Destination = () => {
 
           <hr />
 
-          <div className="section4">
+          <div className="section4" id="packages">
             <div className="section4Left">
               <img src="/travelglobe.webp" alt="Travel planning" />
             </div>

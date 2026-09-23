@@ -57,6 +57,12 @@
     border-radius: 25px;
     font-size: 18px;
     cursor: pointer;
+    background-color: #0de2e5;
+}
+
+.heroContent a {
+    display: flex;
+    justify-content: center;
 }
 
 hr{
@@ -235,7 +241,7 @@ hr{
     padding: 10px 22px;
     border: none;
     border-radius: 25px;
-    background: #3E00E5;
+    background: #0ed3ed;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -253,4 +259,12 @@ hr{
     height: auto;
     display: block;
     border-radius: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#packages {
+    scroll-margin-top: 120px;
 }

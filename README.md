@@ -20,13 +20,19 @@ Wanderly is a modern travel website designed to help users discover beautiful de
 
 * Book Now functionality with package details
 
-* Booking page
+* Two-step booking flow with customer details
+
+* Booking form validation
+
+* Booking confirmation
 
 * About and Contact pages
 
 * Interactive hover effects
 
 * Responsive travel-focused UI
+
+* Smooth scrolling navigation
 
 * Optimized WebP images for faster loading
 
@@ -42,4 +48,6 @@ Wanderly is a modern travel website designed to help users discover beautiful de
 
 ## Status
 
-Currently under development. Core pages, destination pages, packages, and booking flow are completed, with final improvements and UI polish remaining.
+Completed.
+
+Wanderly is a finished frontend travel website built with React, featuring destination exploration, package selection, and a complete frontend booking flow.

@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Booking.css'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, Link } from 'react-router-dom'
 
 const Booking = () => {
   const [searchParams] = useSearchParams()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const destination = searchParams.get('destination')
   const packageName = searchParams.get('package')
@@ -20,35 +24,9 @@ const Booking = () => {
         <h4>{price}</h4>
       </div>
 
-      <form className="bookingform">
-
-        <input
-          type="text"
-          placeholder="Your Name"
-        />
-
-        <input
-          type="email"
-          placeholder="Your Email"
-        />
-
-        <input
-          type="tel"
-          placeholder="Phone Number"
-        />
-
-        <input
-          type="number"
-          placeholder="Number of People"
-        />
-
-        <input
-          type="date"
-        />
-
-        <button type="submit">Confirm Booking</button>
-
-      </form>
+      <Link to={`/booking/form?destination=${destination}&package=${packageName}&price=${price}`}>
+        <button>Continue</button>
+      </Link>
 
     </div>
   )

@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="navbar">
 
       <Link to="/" className="brand">
-        <img src="/contact.png" alt="logo" />
+        <img src="/contact.webp" alt="logo" />
         <span>WWanderly</span>
       </Link>
 

@@ -26,7 +26,7 @@ const Contact = () => {
       </div>
 
       <div className="rightcontact">
-        <img src="contact.png" alt="Travel" />
+        <img src="contact.webp" alt="Travel" />
 
         <div className="contactinfo">
           <h2>Get In Touch</h2>

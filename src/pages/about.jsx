@@ -11,7 +11,7 @@ const About = () => {
         <button className="learnmore">Learn More</button>
       </div>
       <div className="rightabout">
-        <img src="about.png" alt="image" className="image" />
+        <img src="about.webp" alt="image" className="image" />
       </div>
     </div>
   )
